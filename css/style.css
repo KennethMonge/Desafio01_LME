@@ -43,9 +43,10 @@ nav ul li a:hover{
 
 .seccion1 {
     text-align: center;
-    padding: 10rem;
+    padding: 15rem;
     background-color: rgb(51, 51, 51, 0.5);
     color: white;
+    overflow: hidden;
 }
 
 .imagen {
@@ -62,26 +63,76 @@ nav ul li a:hover{
     padding: 10px;
 }
 
-strong{
-    font-style: italic;
-}
-
 #img_ia{
     height: 250px;
 }
 
 footer{
     text-align: center;
-    padding: 20px;
-    background-color: rgb(163, 156, 184, 0.6);
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
 #titulares{
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50px;
+    border-radius: 30px;
+    color: white;
+    padding: 40px;
+    margin: 60px auto;
+    max-width: 600px;
 }
 
 .carnet{
     font-weight: bold;
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    width: 300px; 
+    margin: 60px 30px; 
+    display: inline-block;
+}
+
+.box2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    width: 300px; 
+    margin: 60px 20px; 
+    display: inline-block; 
+}
+
+.seccion1 {
+    text-align: center;
+}
+
+.equipodedesarrollo {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.equipodedesarrollo li {
+    font-size: 18px;
+    margin: 5px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    max-width: 400px; 
+    margin: 10px auto; 
+}
+
+.equipodedesarrollo p {
+    font-weight: bold;
+    font-size: 14px;
 }
